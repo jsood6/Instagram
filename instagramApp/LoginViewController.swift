@@ -8,14 +8,18 @@
 
 import UIKit
 import Parse
+import Foundation
 
 class LoginViewController: UIViewController {
 
+    @IBOutlet var bigView: UIView!
     @IBOutlet weak var usernameField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        bigView.setGradientBackground(colorOne: Colors.blue, colorTwo: Colors.red)
 
         // Do any additional setup after loading the view.
     }

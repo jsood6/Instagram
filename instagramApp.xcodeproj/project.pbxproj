@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		3FD9A76FF0799DB25D0794BA /* Pods_instagramAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1429423FFC13134EB978FF07 /* Pods_instagramAppTests.framework */; };
 		4444CFDF2043C19700DEAD7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444CFDE2043C19700DEAD7E /* AppDelegate.swift */; };
-		4444CFE12043C19700DEAD7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444CFE02043C19700DEAD7E /* ViewController.swift */; };
+		4444CFE12043C19700DEAD7E /* UserMainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444CFE02043C19700DEAD7E /* UserMainPageViewController.swift */; };
 		4444CFE42043C19700DEAD7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4444CFE22043C19700DEAD7E /* Main.storyboard */; };
 		4444CFE62043C19700DEAD7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4444CFE52043C19700DEAD7E /* Assets.xcassets */; };
 		4444CFE92043C19700DEAD7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4444CFE72043C19700DEAD7E /* LaunchScreen.storyboard */; };
 		4444CFF42043C19700DEAD7E /* instagramAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444CFF32043C19700DEAD7E /* instagramAppTests.swift */; };
 		4444CFFF2043C19700DEAD7E /* instagramAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444CFFE2043C19700DEAD7E /* instagramAppUITests.swift */; };
 		4444D00D2043C60A00DEAD7E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444D00C2043C60A00DEAD7E /* LoginViewController.swift */; };
+		4444D017204544E200DEAD7E /* UIColorFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444D016204544E200DEAD7E /* UIColorFile.swift */; };
 		5A666E3C34052CFB2AD18339 /* Pods_instagramAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452A23D814C0821D0B0AF531 /* Pods_instagramAppUITests.framework */; };
 		A28B31BA800747FE949CF305 /* Pods_instagramApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7C3971A0C0D31D6BD45C97 /* Pods_instagramApp.framework */; };
 /* End PBXBuildFile section */
@@ -43,7 +44,7 @@
 		3C7C3971A0C0D31D6BD45C97 /* Pods_instagramApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instagramApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4444CFDB2043C19700DEAD7E /* instagramApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instagramApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4444CFDE2043C19700DEAD7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4444CFE02043C19700DEAD7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4444CFE02043C19700DEAD7E /* UserMainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMainPageViewController.swift; sourceTree = "<group>"; };
 		4444CFE32043C19700DEAD7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4444CFE52043C19700DEAD7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4444CFE82043C19700DEAD7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +56,7 @@
 		4444CFFE2043C19700DEAD7E /* instagramAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instagramAppUITests.swift; sourceTree = "<group>"; };
 		4444D0002043C19700DEAD7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4444D00C2043C60A00DEAD7E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4444D016204544E200DEAD7E /* UIColorFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorFile.swift; sourceTree = "<group>"; };
 		452A23D814C0821D0B0AF531 /* Pods_instagramAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instagramAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80AD353116D4CAD1AEB4E992 /* Pods-instagramApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instagramApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-instagramApp/Pods-instagramApp.debug.xcconfig"; sourceTree = "<group>"; };
 		8A9F4E0636AEF09244BF08D1 /* Pods-instagramAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instagramAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-instagramAppUITests/Pods-instagramAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -117,12 +119,13 @@
 			isa = PBXGroup;
 			children = (
 				4444CFDE2043C19700DEAD7E /* AppDelegate.swift */,
-				4444CFE02043C19700DEAD7E /* ViewController.swift */,
+				4444CFE02043C19700DEAD7E /* UserMainPageViewController.swift */,
 				4444CFE22043C19700DEAD7E /* Main.storyboard */,
 				4444CFE52043C19700DEAD7E /* Assets.xcassets */,
 				4444CFE72043C19700DEAD7E /* LaunchScreen.storyboard */,
 				4444CFEA2043C19700DEAD7E /* Info.plist */,
 				4444D00C2043C60A00DEAD7E /* LoginViewController.swift */,
+				4444D016204544E200DEAD7E /* UIColorFile.swift */,
 			);
 			path = instagramApp;
 			sourceTree = "<group>";
@@ -464,7 +467,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4444D00D2043C60A00DEAD7E /* LoginViewController.swift in Sources */,
-				4444CFE12043C19700DEAD7E /* ViewController.swift in Sources */,
+				4444D017204544E200DEAD7E /* UIColorFile.swift in Sources */,
+				4444CFE12043C19700DEAD7E /* UserMainPageViewController.swift in Sources */,
 				4444CFDF2043C19700DEAD7E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
